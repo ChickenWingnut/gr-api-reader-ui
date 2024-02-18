@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <title>Document</title>
+    <style>
+        body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+
+}
+h1{
+    background-color: white;
+    padding: 1em;
+    margin: 0;
+}
+nav {
+    display: flex;
+    float: left;
+    margin-right: 2em;
+}
+ul{
+    width: 350px;
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 0.5em;
+    font-size: 2.5em;
+    transition: ease-out 0.1s;
+    box-shadow: inset 0 0 0 0 black;
+
+}
+a:hover{
+    box-shadow: inset 350px 0 0 0 white;
+    color: black;
+}
+#discord{
+    display: flex;
+    float: right;
+    gap: 2em;
+    margin: 2em;
+}
+#discord-content{
+    width: 500px;
+    color: white;
+}
+#discord-content p{
+    opacity: 75%;
+}
+.vr {
+    display: inline-block;
+    align-self: stretch;
+    width: 2px;
+    min-height: 1em;
+    background-color: white;
+    margin: 1em;
+}
+    </style>
+</head>
+<body>
+    <h1>Gunraiders API Reader</h1>
+    <nav>
+        <ul>
+        <a href="/player">Player Data</a>
+        <a href="/info">News Page</a>
+        <a href="/bans">Ban List</a>
+        <a href="/items">Items Catalog</a>
+        <a href="/leaderboard/score/weekly">Leaderboard</a>
+        <a href="/servers">Servers List</a>
+        </ul>
+        <div class="vr">
+    </nav>
+
+    </div>
+    <div id="discord">
+        <div id="discord-content">
+            <h2>Join the community!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique impedit! Beatae nam iste in, expedita suscipit veniam sunt eligendi sed magni rerum repellendus ut ratione, libero quod? Fugiat laborum amet molestias quis cum ab excepturi corporis enim sequi repellendus porro inventore doloribus, nemo non quo explicabo officia molestiae reiciendis!</p>
+        </div>
+        <iframe src="https://discord.com/widget?id=808577327579267112&amp;theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
+</body>
+</html>
